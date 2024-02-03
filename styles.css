@@ -1,0 +1,5 @@
+body {
+    background-image: url("images/Is_your_router_vulnerable_to_hack.jpg");
+    background-size: cover; /* This makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
