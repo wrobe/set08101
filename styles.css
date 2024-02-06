@@ -11,11 +11,11 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #368b6d;
+    color: #15a42d;
     padding-top: 20px;
     min-height: 70px;
-    border-bottom: #0779e4 3px solid;
+    border-bottom: #0b71d0 3px solid;
 }
 
 header h1, nav ul {
