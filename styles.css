@@ -20,15 +20,6 @@ header {
 #header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-#search-box input[type="text"] {
-    padding: 5px;
-}
-
-#search-box button {
-    padding: 5px;
 }
 
 nav ul {
@@ -50,9 +41,7 @@ nav ul li a:hover {
 }
 
 #main-content {
-    flex-grow: 1; /* Ensures footer stays at the bottom */
-    background: url('page-content-background.png') no-repeat center center;
-    background-size: cover;
+    flex-grow: 1;
     padding: 20px;
     text-align: center;
 }
@@ -64,9 +53,12 @@ footer {
     padding: 10px;
 }
 
-#contact-us a {
-    color: white;
-    text-decoration: none;
+.dark-mode {
+    background-color: #121212;
+    color: #cccccc;
 }
 
-/* Add responsive design styles here */
+.dark-mode header,
+.dark-mode footer {
+    background-color: #1c1c1c;
+}
