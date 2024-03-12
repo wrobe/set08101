@@ -7,41 +7,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#guides">Guides</a></li>
-                <li><a href="#tools">Tools</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h1>Welcome to Secure Your Digital World</h1>
-            <p>Your guide to securing your home network.</p>
-        </section>
-        <section id="guides">
-            <h2>Guides</h2>
-            <article>
-                <h3>Securing Your Wi-Fi</h3>
-                <p>Learn how to protect your wireless network.</p>
-            </article>
-            <!-- More articles -->
-        </section>
-        <section id="tools">
-            <h2>Tools</h2>
-            <div id="password-checker">
-                <h3>Password Strength Tester</h3>
-                <input type="password" id="password-input" placeholder="Enter your password">
-                <button onclick="checkPasswordStrength()">Check Strength</button>
-                <p id="password-result"></p>
+    <div id="container">
+        <header>
+            <div id="header-content">
+                <h1>Secure Your Digital World</h1>
+                <div id="search-box">
+                    <input type="text" placeholder="SEARCH">
+                    <button>🔍</button>
+                </div>
+                <button id="dark-mode-toggle">Dark Mode Toggle</button>
             </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Secure Your Digital World</p>
-    </footer>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Basic Networking">Basic Networking</a></li>
+                    <li><a href="#Password Management">Password Management</a></li>
+                    <li><a href="#Secure Your Home Router">Secure Your Home Router</a></li>
+                    <li><a href="#Build You Own Secure Router">Build Your Own Secure Router</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+            <!-- Content will be loaded here based on navigation -->
+        </main>
+        <footer>
+            <div id="contact-us">
+                <a href="#contact">Contact us</a>
+            </div>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
