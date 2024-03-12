@@ -13,7 +13,7 @@
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 10px 20px; /* Reduced padding to lift title up */
     text-align: center;
 }
 
@@ -23,10 +23,10 @@ header {
     align-items: center;
 }
 
-
 #header-content h1 {
-    flex-grow: 1;
+    margin-top: 0; /* Adjust top margin to move title up */
     text-align: center;
+    flex-grow: 1;
 }
 
 nav ul {
