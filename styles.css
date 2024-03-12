@@ -1,35 +1,32 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 1em 0;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -41,30 +38,8 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: sticky;
+    padding: 1em 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-.dark-mode {
-    background-color: #121212;
-    color: #e0e0e0;
-}
-
-.dark-mode header, .dark-mode footer {
-    background-color: #222;
-    color: #e0e0e0;
-}
-
-.dark-mode nav ul li a {
-    color: #e0e0e0;
-}
-
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
 }

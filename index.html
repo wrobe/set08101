@@ -3,46 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secure Home Network Guide</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <!-- Dark Mode Feature -->
-    <script>
-        // JavaScript for Dark Mode Feature will go here
-    </script>
+    <title>Secure Your Digital World</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <!-- Sticky Header Navigation -->
-        <div class="sticky-header">
-            <h1>Secure Your Home Network</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="basic-networking.html">Basic Networking</a></li>
-                    <li><a href="router-security.html">Router Security Guide</a></li>
-                    <li><a href="resources.html">Additional Resources</a></li>
-                </ul>
-            </nav>
-            <!-- Dark Mode Slider -->
-            <div class="dark-mode-slider">
-                <span class="sun-icon">☀️</span>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <span class="moon-icon">🌙</span>
-            </div>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#guides">Guides</a></li>
+                <li><a href="#tools">Tools</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>Welcome to Secure Home Network Guide</h2>
-            <p>Discover how to protect your home network from threats and ensure your online safety with our easy-to-follow guides and resources. Learn how to create strong passwords, secure your Wi-Fi network, and safeguard your digital life.</p>
+        <section id="home">
+            <h1>Welcome to Secure Your Digital World</h1>
+            <p>Your guide to securing your home network.</p>
         </section>
-        <!-- More content will be added here -->
+        <section id="guides">
+            <h2>Guides</h2>
+            <article>
+                <h3>Securing Your Wi-Fi</h3>
+                <p>Learn how to protect your wireless network.</p>
+            </article>
+            <!-- More articles -->
+        </section>
+        <section id="tools">
+            <h2>Tools</h2>
+            <div id="password-checker">
+                <h3>Password Strength Tester</h3>
+                <input type="password" id="password-input" placeholder="Enter your password">
+                <button onclick="checkPasswordStrength()">Check Strength</button>
+                <p id="password-result"></p>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>© 2024 Secure Home Network Guide</p>
+        <p>&copy; 2024 Secure Your Digital World</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

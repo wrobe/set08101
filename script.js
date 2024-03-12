@@ -1,22 +1,24 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const darkModeSwitch = document.querySelector('.dark-mode-slider input[type="checkbox"]');
-
-    function switchTheme(e) {
-        if (e.target.checked) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-            localStorage.setItem('theme', 'light');
-        }
+function checkPasswordStrength() {
+    const passwordInput = document.getElementById('password-input');
+    const passwordResult = document.getElementById('password-result');
+    const password = passwordInput.value;
+    
+    // Implementing the strength check criteria
+    const isStrong = password.length >= 10 &&
+                     /[a-z]/.test(password) &&
+                     /[A-Z]/.test(password) &&
+                     /[0-9]/.test(password).length >= 3;
+    
+    if (isStrong) {
+        passwordResult.textContent = 'Password is strong';
+    } else {
+        passwordResult.textContent = 'Password is NOT strong. Please try again.';
     }
+}
 
-    darkModeSwitch.addEventListener('change', switchTheme, false);
+// additional functionality dark mode
+// document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
 
-    // Check for saved user preference, if any, on page load
-    const currentTheme = localStorage.getItem('theme');
-    if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        darkModeSwitch.checked = (currentTheme === 'dark');
-    }
-});
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
