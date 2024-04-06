@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction to Home Networks</title>
+</head>
+<body>
+    <header>
+        <h1>Introduction to Home Networks</h1>
+    </header>
+    <main>
+        <section>
+            <p>A typical home network includes various devices, with routers playing a central role by connecting to the internet and sharing this connection locally.</p>
+            <img src="images/net.jpg" alt="Home Network Diagram">
+        </section>
+        <section>
+            <h2>A closer look at the Home Router</h2>
+            <p>Most people refer to their Home Router simply as a "router." However, the term "router" can be somewhat misleading because a Home Router is actually made up of multiple components combined into one device, with the routing function being just one of them.
+                Nowadays, the majority of Home Routers on the market also include built-in Wi-Fi access points, and they are often marketed as Wi-Fi Routers.
+                In this guide, we'll explore the various components of a typical Home Router in detail. The information will be presented across several sections. Understanding what a Home Router really is and how it functions will enhance your knowledge and use of the device.</p>
+        </section>
+        <section>
+            <h3>Components in a Home Router</h3>
+            <p>These are the main components of a typical Home Router:</p>
+
+
+            <ul>
+                <li>An integrated Switch with a number of LAN ports. The LAN ports let you connect computers and other devices using network cables</li>
+                <li>A Wireless Access Point with one or more antennas which wireless devices can connect to. The antennas can either be visible external antennas, or they can be integrated inside of the home router.
+                </li>
+                <li>Often there is a built-in Modem, at least if the Home Router is meant to be connected to Cable or DSL-based Internet connections.
+                </li>
+                <li>The WAN port of the router lets you connect your internet connection to the home router. If the home router has a modem, then the WAN port is connected to the internal modem.
+                </li>
+                <li>The actual Router function which forwards traffic between the inside and outside networks.
+                </li>
+            </ul>
+                <img src="images/rt.jpg" alt="Home Network Diagram">
+        </section>
+        <section>
+            <h3>Home Router components and network traffic</h3>
+            <p>The internal Router only has be involved if the Network traffic is going to the internet, or if the computers need to talk with one of the Services that are running on the Home Router.
+                Each of the internal components will be discussed in more details later on in the guide.</p>
+        </section>
+            <h3>Routing, introduction to IP addresses</h3>
+            <p>The primary function of a Router is to direct data traffic to its intended destination. This requires the router to maintain an understanding of the network's layout and where different destinations are located. Upon receiving data, the router aims to send this data in the direction of its destination.
+                In the context of a home environment, a router usually handles relatively straightforward routing tasks. Typically, it doesn't have many choices for directing traffic. It is aware of the existence of a single local LAN (Local Area Network) within the router. Consequently, it assumes that any destination not within this local LAN is located on the external internet. Therefore, unless the data is specifically addressed to a device within the local LAN, the router will direct the traffic to the internet.</p>
+            <img src="images/net.jpg" alt="Home Network Diagram">
+            <p>When two computers within the same local area network (LAN) communicate, the home router simply facilitates the direct exchange of data between them. However, if a computer on the LAN attempts to access a webpage on the Internet, the router needs to step in to forward this traffic to the outside world. It does this by sending the data out through its WAN (Wide Area Network) port to the Internet Service Provider (ISP). From there, the ISP's more advanced routers take over the task of routing the data to its final destination.</p>
+        </main>
+    <footer>
+    </footer>
+</body>
+</html>
