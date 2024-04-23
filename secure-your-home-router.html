@@ -10,15 +10,18 @@
     <header>
         <h1>Let's Make Your Wifi Router as Secure as Possible</h1>
     </header>
+    <div class="spacer"></div>
     <main>
         <section>
             <p>Router manufacturers are simplifying setup and configuration processes, often through user-friendly apps. Despite these advancements, most people only perform basic setup tasks such as renaming their WiFi and changing passwords, neglecting further customization. This minimal approach may work for immediate connectivity needs and might seem secure enough to deter potential hackers. However, there's more that can be done to enhance your router's security and the overall safety of your home network.</p>
             <p>It's important to note that wireless routers vary significantly in their interfaces, terminology, and available settings. For instance, when navigating the settings of a TP-Link Archer C7 for this discussion, keep in mind that your router's configuration options and how you access them may differ. You should familiarize yourself with your router’s configuration interface—be it web-based or app-driven—to ensure you're maximizing security settings. Be aware, however, that you might not be able to implement every security measure suggested here due to these differences.</p>
         </section>
+        <div class="spacer"></div>
         <section>
             <h2>Accessing your router's settings</h2>
             <p>If your router lacks a straightforward app for setup, you typically configure its settings by launching a web browser on a device connected to the router and entering the router's IP address.</p>
             <ul>
+                <div class="spacer"></div>
                 <li>On a Windows system, pull up the command prompt and type in <code>ipconfig</code>. The IP address that's listed as your default gateway is likely your router's IP address.</li>
                 <li>If you're on a Mac, pull up System Preferences > Network, click on Advanced in the bottom-right corner, then click on the TCP/IP option toward the top of the next window and look for your router's IP address.</li>
                 <li>If you're on your iPhone, tap on Settings, then Wi-Fi, and tap on the “i” icon next to the wifi network you're connected to. Your router's IP address should be listed right there.</li>
@@ -26,12 +29,16 @@
         </section>
         <section>
             <section>
+                <div class="spacer"></div>
                 <h2>Step One: Update your firmware</h2>
                 <p>Some routers keep firmware updates deep inside their settings menus; others may even inform you of a new firmware update right away when you go into their applications or web-based user interfaces. Whatever option you select, you should ensure that your router has the latest firmware.</p>
             </section>
+            <div class="spacer"></div>
             <p>This video will show you detailed instructions on how to perform a router firmware update </p>
+            <div class="spacer"></div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/lZu2lA3wUMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
+        <div class="spacer"></div>
         <section>
             <h2>Change your router login and password</h2>
             <p>If you're still using “admin / admin,” “admin / password,” or some variant of generic words to log into your router, change that. Even if your router manufacturer has given you a quirkier password that presumably differs for everybody, it's important to use a login and password that's tough to guess or brute-force.
@@ -39,20 +46,38 @@
             <p>Use <a href="https://www.passwordmonster.com/">this</a> website to check your password strength</p>
         </section>
         <section>
+            <div class="spacer"></div>
             <h2>Use WPA3 to secure your wireless network</h2>
             <p>To improve the security of your wireless network, utilise WPA3, the most recent Wi-Fi Protected Access protocol. WPA3 improves on previous versions, delivering improved data protection for your network. Here are the reasons to choose WPA3:</p>
             <ul>
+                <div class="spacer"></div>
                 <li>Enhanced Security: WPA3 offers stronger encryption through the Simultaneous Authentication of Equals (SAE) protocol, which significantly improves protection against offline dictionary attacks. This means even if an attacker captures data from your network, deciphering it without the exact password becomes much more difficult.</li>
                 <li>Increased Protection for Public Networks: WPA3 also introduces individualized data encryption on open networks. This means that each user's connection is encrypted separately, enhancing privacy and security even on networks that don't require a password.</li>
                 <li>Better Device Protection: Devices that support WPA3 are required to use stronger encryption methods, providing additional protection against certain types of attacks that could compromise your device.</li>
             </ul>
+            <div class="spacer"></div>
             <p>If your devices do not support WPA3, it's crucial to ensure you're using a strong, complex password for your Wi-Fi network. A strong password can mitigate many of the vulnerabilities that older security protocols have, making it significantly harder for attackers to gain unauthorized access to your network. <a href="https://www.passwordmonster.com/">This</a> website will help you to create a strong password</p>
         </section>
         <section>
             <p>By prioritizing the use of WPA3 or employing a robust password policy, you can significantly enhance the security of your wireless network, protecting your data and devices from potential threats.And whatever you do, don't run an open (password-free) wifi network. <a href="https://www.youtube.com/watch?v=31g0YE61PLQ">My god.</a>
             </p>
         </section>
-
+        <section>
+            <div class="spacer"></div>
+        <h2>Turn off “remote management,” Wi-Fi Protected Setup (WPS), and Universal Plug and Play (UPnP) features.</h2>
+            <p>Some routers have features that can be convenient but weaken your network security. For example, enabling remote access to your router’s controls allows you to change settings over the internet. WPS lets you push a button on the router to connect a device to the internet instead of entering the Wi-Fi network password. Lastly, UPnP lets your devices find each other on the network. These features may make it easier to, say, add devices to your network or let guests use your Wi-Fi — but they can make your network less secure. </p>
+        </section>
+        <div class="spacer"></div>
+        <h2>Set up a guest network.</h2>
+            <p>Many routers let you set up a guest network with a different name and password. It’s a good security move for two reasons:</p>
+            <div class="spacer"></div>
+            <ul>
+                <li>Having a separate login means fewer people have your primary Wi-Fi network password.</li>
+                <li>In case a guest (unknowingly) has malware on their phone or tablet, it won’t get onto your primary network and your devices.</li>
+            </ul>
+            <div class="spacer"></div>
+            <h2>Turn on your router firewall.</h2>
+            <p>A firewall is an additional layer of protection that can help keep out viruses, malware, and even hackers. Most routers come with built-in firewalls, so check your settings to make sure your router’s firewall is turned on.</p>
     </main>
 </body>
 </html>

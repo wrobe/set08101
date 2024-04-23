@@ -24,6 +24,11 @@
     padding: 20px 0;
     text-align: center;
   }
+
+  .spacer {
+    margin-top: 1em; /* This adds space above the element */
+  }
+  
   
   .header h1 {
     margin: 0;
@@ -79,7 +84,6 @@
     background-color: #218838;
   }
   
-  /* Responsive layout */
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
