@@ -5,6 +5,7 @@ document.getElementById('dark-mode-toggle').addEventListener('click', function()
 const pages = [
     { title: "Home", url: "index.html" },
     { title: "Basic Networking", url: "basic-networking.html" },
+    { title: "Password Checker", url: "https://www.passwordmonster.com/" },
     { title: "Secure Your Home Router", url: "secure-your-home-router.html" },
     { title: "Build Your Own Secure Router", url: "https://circuitdigest.com/microcontroller-projects/diy-router-using-raspberry-pi" }
 ];
